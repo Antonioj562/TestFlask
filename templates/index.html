@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock title %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+{% block content %}
+    <div class="frontPage">
+        <h1>Antonio Loyola's Portfolio</h1>
+    </div>
+{% endblock %}
+

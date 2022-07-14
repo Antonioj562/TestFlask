@@ -1,0 +1,56 @@
+.frontPage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family:"Comic Sans MS", cursive, sans-serif
+}
+
+body{
+    background-image: url("/static/images/test.gif");
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position:center, center ;
+    height:100%;
+    width:100%;
+}
+.emailSection{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#textBox{
+    border-radius: 15px;
+    color: white;
+}
+
+.aboutMe{
+    color: white;
+    font-family: Gerogia, serif;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    background-color:#0B132B;
+    border-radius: 15px;
+}
+
+#submitButton{
+    border-radius: 15px;
+    background-color: #0B132B;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: 60px;
+}
+
+#label{
+    background-color: #0B132B;
+    color:white;
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    left: 60px;
+}
