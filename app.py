@@ -40,4 +40,4 @@ def about():
     # Check for Captcha when submit button is pressed
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
