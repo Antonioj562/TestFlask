@@ -6,9 +6,8 @@
     color: aliceblue;
     font-family:"Comic Sans MS", cursive, sans-serif
 }
-
 body{
-    background-image: url("/static/images/test.gif");
+    background-image: url("/static/images/bg.jpg");
     background-size:cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -16,41 +15,54 @@ body{
     height:100%;
     width:100%;
 }
-.emailSection{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#textBox{
-    border-radius: 15px;
-    color: white;
-}
-
 .aboutMe{
     color: white;
     font-family: Gerogia, serif;
-    position: absolute;
-    top: 200px;
+    top: 20%;
     left: 30%;
-    background-color:#0B132B;
+    position:absolute;
+    background-color:darkslategray;
     border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
-
-#submitButton{
-    border-radius: 15px;
-    background-color: #0B132B;
-    margin: 0;
-    color: white;
-    position: absolute;
-    left: 60px;
+.emailSection{
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
-
-#label{
-    background-color: #0B132B;
-    color:white;
-    border-radius: 15px;
-    margin: 0;
-    position: absolute;
-    left: 60px;
-}
+    #emailBox{
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #textBox{
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #submitButton{
+        background-color:grey;
+        color: white;
+        border-radius: 15px;
+        
+    }
+    #label{
+        background-color:grey;
+        color:white;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #contactTitle{
+        background-color: grey;
+        color:white;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:1.5em;
+    }
